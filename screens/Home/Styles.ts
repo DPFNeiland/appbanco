@@ -23,15 +23,23 @@ export const styles = StyleSheet.create({
     },
 
     headHeader:{
-        
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: '30%',
     },
 
     headBody:{
-
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: '50%',
     },
 
     headBodyValue:{
-
+        
     },
 
     textValue: {
@@ -55,6 +63,14 @@ export const styles = StyleSheet.create({
     },
 
     modaloptions:{
-
+        backgroundColor: '#fff',
+        width: '80%',
+        height: '40%',
+        position: 'absolute',
+        display: 'flex',
+        alignItems: 'center',
+        top: '25%',
+        borderRadius: 15,
+        flexWrap: 'wrap',
     }
 })
