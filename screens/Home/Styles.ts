@@ -39,27 +39,44 @@ export const styles = StyleSheet.create({
     },
 
     headBodyValue:{
-        
+        width: '60%',
+        height: '100%',
+        display: 'flex',
+        justifyContent: 'space-between',
     },
 
     textValue: {
-
+        fontSize: 35,
+        fontWeight: '500',
+        color: '#fff'
     },
 
     textBalance:{
-
+        fontSize: 15,
+        fontWeight: '400',
+        color: '#fff'
     },
 
     headBodyButton: {
-
+        width: "40%",
+        justifyContent: 'center',
+        alignItems: 'flex-end'
     },
 
     buttonTopMe:{
-
+        width: '90%',
+        height: 50,
+        backgroundColor: '#00CCFF',
+        borderRadius: 100,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: '10%'
     },
 
     textButtonTopMe:{
-
+        fontSize: 15,
+        fontWeight: '400',
+        color: '#fff'
     },
 
     modaloptions:{
