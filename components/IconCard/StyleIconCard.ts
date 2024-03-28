@@ -1,8 +1,8 @@
 import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
-        width: '30%',
-        height: '40%',
+        width: '33.3%',
+        height: '33.3%',
         marginBottom: '7%',
         borderRadius: 10,
         display: 'flex',
