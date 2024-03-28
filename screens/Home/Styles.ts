@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: '10%',
     },
 
-    headHeader:{
+    headHeader: {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
         height: '30%',
     },
 
-    headBody:{
+    headBody: {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
         height: '50%',
     },
 
-    headBodyValue:{
+    headBodyValue: {
         width: '60%',
         height: '100%',
         display: 'flex',
@@ -51,7 +51,7 @@ export const styles = StyleSheet.create({
         color: '#fff'
     },
 
-    textBalance:{
+    textBalance: {
         fontSize: 15,
         fontWeight: '400',
         color: '#fff'
@@ -63,7 +63,7 @@ export const styles = StyleSheet.create({
         alignItems: 'flex-end'
     },
 
-    buttonTopMe:{
+    buttonTopMe: {
         width: '90%',
         height: 50,
         backgroundColor: '#00CCFF',
@@ -73,13 +73,13 @@ export const styles = StyleSheet.create({
         marginTop: '10%'
     },
 
-    textButtonTopMe:{
+    textButtonTopMe: {
         fontSize: 15,
         fontWeight: '400',
         color: '#fff'
     },
 
-    modaloptions:{
+    modaloptions: {
         backgroundColor: '#fff',
         width: '80%',
         height: '40%',
@@ -89,5 +89,7 @@ export const styles = StyleSheet.create({
         top: '25%',
         borderRadius: 15,
         flexWrap: 'wrap',
+        justifyContent: 'center',
+
     }
 })
